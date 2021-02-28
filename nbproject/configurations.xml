@@ -1,0 +1,394 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="100">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <logicalFolder name="SourceFiles"
+                   displayName="Исходные файлы"
+                   projectFiles="true">
+      <logicalFolder name="include" displayName="include" projectFiles="true">
+        <logicalFolder name="cparser" displayName="cparser" projectFiles="true">
+          <logicalFolder name="builtin-features"
+                         displayName="builtin-features"
+                         projectFiles="true">
+            <itemPath>include/cparser/builtin-features/functions.inc</itemPath>
+            <itemPath>include/cparser/builtin-features/operations.inc</itemPath>
+            <itemPath>include/cparser/builtin-features/reservedWords.inc</itemPath>
+            <itemPath>include/cparser/builtin-features/typeSpecificFunctions.inc</itemPath>
+          </logicalFolder>
+          <itemPath>include/cparser/builtin-features.cpp</itemPath>
+          <itemPath>include/cparser/builtin-features.inc</itemPath>
+          <itemPath>include/cparser/containers.cpp</itemPath>
+          <itemPath>include/cparser/containers.h</itemPath>
+          <itemPath>include/cparser/functions.cpp</itemPath>
+          <itemPath>include/cparser/functions.h</itemPath>
+          <itemPath>include/cparser/packToken.cpp</itemPath>
+          <itemPath>include/cparser/packToken.h</itemPath>
+          <itemPath>include/cparser/shunting-yard-exceptions.h</itemPath>
+          <itemPath>include/cparser/shunting-yard.cpp</itemPath>
+          <itemPath>include/cparser/shunting-yard.h</itemPath>
+        </logicalFolder>
+        <logicalFolder name="jspy" displayName="jspy" projectFiles="true">
+          <itemPath>include/jspy/catch.hpp</itemPath>
+          <itemPath>include/jspy/cparse-custom.cpp</itemPath>
+          <itemPath>include/jspy/global-setup.cpp</itemPath>
+          <itemPath>include/jspy/matcher.cpp</itemPath>
+          <itemPath>include/jspy/matcher.h</itemPath>
+          <itemPath>include/jspy/pattern.cpp</itemPath>
+          <itemPath>include/jspy/pattern.h</itemPath>
+          <itemPath>include/jspy/range.cpp</itemPath>
+          <itemPath>include/jspy/range.h</itemPath>
+          <itemPath>include/jspy/statements.cpp</itemPath>
+          <itemPath>include/jspy/statements.h</itemPath>
+        </logicalFolder>
+        <logicalFolder name="nrex" displayName="nrex" projectFiles="true">
+          <itemPath>include/nrex/nrex.cpp</itemPath>
+          <itemPath>include/nrex/nrex.hpp</itemPath>
+          <itemPath>include/nrex/nrex_config.h</itemPath>
+        </logicalFolder>
+        <logicalFolder name="utils" displayName="utils" projectFiles="true">
+          <itemPath>include/utils/buf.c</itemPath>
+          <itemPath>include/utils/buf.h</itemPath>
+          <itemPath>include/utils/lock.cpp</itemPath>
+          <itemPath>include/utils/lock.h</itemPath>
+          <itemPath>include/utils/simple_tpl.cpp</itemPath>
+          <itemPath>include/utils/simple_tpl.h</itemPath>
+          <itemPath>include/utils/util_filesys.cpp</itemPath>
+          <itemPath>include/utils/util_filesys.h</itemPath>
+          <itemPath>include/utils/util_string.cpp</itemPath>
+          <itemPath>include/utils/util_string.h</itemPath>
+          <itemPath>include/utils/utils.cpp</itemPath>
+          <itemPath>include/utils/utils.h</itemPath>
+          <itemPath>include/utils/void_array.cpp</itemPath>
+          <itemPath>include/utils/void_array.h</itemPath>
+        </logicalFolder>
+        <itemPath>include/TextTable.h</itemPath>
+        <itemPath>include/ah_api.cpp</itemPath>
+        <itemPath>include/ah_api.h</itemPath>
+        <itemPath>include/ah_api_common.cpp</itemPath>
+        <itemPath>include/ah_api_common.h</itemPath>
+        <itemPath>include/ah_page.cpp</itemPath>
+        <itemPath>include/ah_page.h</itemPath>
+        <itemPath>include/database.cpp</itemPath>
+        <itemPath>include/database.h</itemPath>
+        <itemPath>include/local.h</itemPath>
+      </logicalFolder>
+      <itemPath>main.cpp</itemPath>
+    </logicalFolder>
+    <logicalFolder name="HeaderFiles"
+                   displayName="Файлы заголовков"
+                   projectFiles="true">
+    </logicalFolder>
+    <logicalFolder name="ResourceFiles"
+                   displayName="Файлы ресурсов"
+                   projectFiles="true">
+    </logicalFolder>
+    <logicalFolder name="TestFiles"
+                   displayName="Файлы тестов"
+                   projectFiles="false"
+                   kind="TEST_LOGICAL_FOLDER">
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Важные файлы"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <sourceRootList>
+    <Elem>include</Elem>
+  </sourceRootList>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Debug" type="1">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <ccTool>
+          <standard>8</standard>
+          <commandLine>-pthread</commandLine>
+        </ccTool>
+      </compileType>
+      <item path="include/TextTable.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/ah_api.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="include/ah_api.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/ah_api_common.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="include/ah_api_common.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/ah_page.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="include/ah_page.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/cparser/builtin-features.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="include/cparser/builtin-features.inc"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="include/cparser/builtin-features/functions.inc"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="include/cparser/builtin-features/operations.inc"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="include/cparser/builtin-features/reservedWords.inc"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="include/cparser/builtin-features/typeSpecificFunctions.inc"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="include/cparser/containers.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="include/cparser/containers.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/cparser/functions.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="include/cparser/functions.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/cparser/packToken.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="include/cparser/packToken.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/cparser/shunting-yard-exceptions.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="include/cparser/shunting-yard.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="include/cparser/shunting-yard.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/database.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="include/database.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/jspy/catch.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/jspy/cparse-custom.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="include/jspy/global-setup.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="include/jspy/matcher.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="include/jspy/matcher.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/jspy/pattern.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="include/jspy/pattern.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/jspy/range.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="include/jspy/range.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/jspy/statements.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="include/jspy/statements.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/local.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/nrex/nrex.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="include/nrex/nrex.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/nrex/nrex_config.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/utils/buf.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="include/utils/buf.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/utils/lock.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="include/utils/lock.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/utils/simple_tpl.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="include/utils/simple_tpl.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/utils/util_filesys.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="include/utils/util_filesys.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/utils/util_string.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="include/utils/util_string.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/utils/utils.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="include/utils/utils.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/utils/void_array.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="include/utils/void_array.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="main.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+    </conf>
+    <conf name="Release" type="1">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <developmentMode>5</developmentMode>
+        </cTool>
+        <ccTool>
+          <developmentMode>5</developmentMode>
+        </ccTool>
+        <fortranCompilerTool>
+          <developmentMode>5</developmentMode>
+        </fortranCompilerTool>
+        <asmTool>
+          <developmentMode>5</developmentMode>
+        </asmTool>
+      </compileType>
+      <item path="include/TextTable.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/ah_api.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="include/ah_api.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/ah_api_common.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="include/ah_api_common.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/ah_page.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="include/ah_page.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/cparser/builtin-features.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="include/cparser/builtin-features.inc"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="include/cparser/builtin-features/functions.inc"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="include/cparser/builtin-features/operations.inc"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="include/cparser/builtin-features/reservedWords.inc"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="include/cparser/builtin-features/typeSpecificFunctions.inc"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="include/cparser/containers.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="include/cparser/containers.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/cparser/functions.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="include/cparser/functions.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/cparser/packToken.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="include/cparser/packToken.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/cparser/shunting-yard-exceptions.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="include/cparser/shunting-yard.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="include/cparser/shunting-yard.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/database.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="include/database.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/jspy/catch.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/jspy/cparse-custom.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="include/jspy/global-setup.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="include/jspy/matcher.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="include/jspy/matcher.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/jspy/pattern.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="include/jspy/pattern.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/jspy/range.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="include/jspy/range.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/jspy/statements.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="include/jspy/statements.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/local.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/nrex/nrex.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="include/nrex/nrex.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/nrex/nrex_config.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/utils/buf.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="include/utils/buf.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/utils/lock.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="include/utils/lock.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/utils/simple_tpl.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="include/utils/simple_tpl.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/utils/util_filesys.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="include/utils/util_filesys.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/utils/util_string.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="include/utils/util_string.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/utils/utils.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="include/utils/utils.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/utils/void_array.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="include/utils/void_array.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="main.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>
